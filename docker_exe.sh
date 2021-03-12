@@ -33,8 +33,8 @@ else
 fi
 
 # docker image 削除
-echo -e "${MESSAGE_HEADER} docker image を削除しますか？ (y or n)\n"
-echo -e "${MESSAGE_HEADER}${MESSAGE_HEADER} (また、すぐに使うなら削除しない方がいいよね、、、)\n"
+echo -e "${MESSAGE_HEADER} docker image を削除しますか？ (y or n)"
+echo -e "${MESSAGE_HEADER}${MESSAGE_HEADER} (また、すぐに使うなら削除しない方がいいよね、、、)"
 echo -e "${MESSAGE_HEADER}${MESSAGE_HEADER} (でも docker image を更新する予定があるなら削除しといたら？？？)\n"
 read input2
 
