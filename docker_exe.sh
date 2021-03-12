@@ -3,9 +3,11 @@ DOCKER_IMAGE_NAME=death_app
 MESSAGE_HEADER="***"
 
 echo -e "${MESSAGE_HEADER} docker を起動します。。。\n"
+echo -e "${MESSAGE_HEADER} docker のバージョンは以下を参照ください。。。"
+docker -v
 
 # docker build
-echo -e "${MESSAGE_HEADER} docker image を作成しますか？ (y or n)"
+echo -e "\n${MESSAGE_HEADER} docker image を作成しますか？ (y or n)"
 read input1
 
 if [ $input1 = "n" ]; then
